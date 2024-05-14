@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Au trois-quart</title>
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css" />
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+         <!-- marie -->
+        <nav class="navbar is-fixed-top is-black
+        ourNav" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="index.html">
+                    <img src="./assets/images/logo3.png" width="40" height="150">
+                </a>
+
+                <a class="navbar-item" href="index.html">
+                    AU TROIS-QUART
+                </a>
+
+
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="navMenu" class="navbar-menu">
+
+                <div class="navbar-end ">
+                    <a class="navbar-item" href="#welcome">
+                        Home
+                    </a>
+
+                    <a class="navbar-item" href="menu.html">
+                        Menu
+                    </a>
+
+                    <a class="navbar-item" href="#about">
+                        About Us
+                    </a>
+
+                    <a class="navbar-item" href="#hours">
+                        Opening Hours
+                    </a>
+                </div>
+
+                
+            </div>
+
+             <!-- marie -->
+        </nav>
+        
+                
+            <section  id="welcome" class="hero heroIndex is-fullheight-with-navbar">
+                <div class="hero-body">
+                  <div class="container">
+                    <h1 class="title heroTitle has-text-centered">
+                        Welcome to our restaurant
+                      </h1>
+                      <h2 class="subtitle happyHoliday">
+                        We wish you a happy holiday season.
+                      </h2>
+                  </div>
+                </div>
+              </section>
+                    
+                    
+                
+               
+    
+               
+                
+                
+            
+      
+    </header>
+
+
+    <main>
+        <section class="section columns about" id="about">
+            <div class="container column is-half is-offset-one-quarter ">
+                <div class="heading">
+                    <h2 class="title " >About US</h2>
+                    <p class="mt-5 is-size-6">
+                        At "Au trois quart", we garantee healthy, local & delightful meals. We invite you to share an amazing experience with us. During this current global situation, we are happy to offer you a free and fast delivery service, straight to your front door. To avoid any plastic waste, we encourage you to prepare your own cutlery and plates. We hope you will enjoy our work as much as we do.
+                    </p>
+                </div>
+            </div>
+            <div class="column ">
+                <img src="./assets/images/logo3.png" alt="our logo">
+            </div>
+        </section>
+
+        <!-- MODIF CLASS SECTION, MODIF H2 MT-6 to MT-2 -->
+        <section id="hours" class="contact is-flex is-justify-content-space-evenly is-align-items-center is-flex-wrap-wrap-reverse transparent opening">
+            <div>
+                <h2 class="mt-2 px-2 pb-2 titleSection" >Our opening hours</h2>
+                <!-- MOVE DIV OPEN/CLOSE IN THE END OF THIS SECTION -->
+                <table class="table tablebg">
+                    <thead>
+                        <tr>
+                            <th><abbr title="Position">Day</abbr></th>
+                            <th>Opening time</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Monday</th>
+                            <td><strong>CLOSED</strong></td>
+                        </tr>
+                        <tr>
+                            <th>Tuesday</th>
+                            <td>11:30 - 14:00 </br>
+                                18:00 - 22:30 </td>
+                        </tr>
+                        <tr>
+                            <th>Wednesday</th>
+                            <td>11:30 - 14:00 </br>
+                                18:00 - 22:30</td>
+                        </tr>
+                        <tr>
+                            <th>Thursday</th>
+                            <td>11:30 - 14:00 </br>
+                                18:00 - 22:30</td>
+                        </tr>
+                        <tr>
+                            <th>Friday</th>
+                            <td>11:30 - 14:00 </br>
+                                18:00 - 22:30</td>
+                        </tr>
+                        <tr>
+                            <th>Saturday</th>
+                            <td>11:30 - 14:00 </br>
+                                18:00 - 22:30</td>
+                        </tr>
+                        <tr>
+                            <th>Sunday</th>
+                            <td>11:30 - 14:00 </br>
+                                <strong>CLOSED</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="current-time" class="panel-hours">
+                <!-- Display open/close with p creation in js -->
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="content has-text-centered">
+                <p class="p-footer">
+                    <a class="footer-link">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <a class="footer-link">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                </p>
+                <p class="p-footer">
+                    <strong>© 2020 Trois-quart</strong>
+                </p>
+                <p class="p-footer">
+
+                    The "Trois-quart" team members are <a class="footer-link" href="https://github.com/JeanFabry">Jean F.</a>, <a class="footer-link" href="https://github.com/mariefourriere">Marie F.</a> , <a  class="footer-link"href="https://github.com/GAudrey">Audrey G.</a> and <a class="footer-link" href="https://github.com/Jniouen-Wassim">Wassim J.</a>
+
+                </p>
+                <p class="p-footer">
+                    <a class="footer-link" href="https://github.com/JeanFabry/Restaurant"><i class="fa fa-github"></i> Github project</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- marie -->
+    <script src="./gallery.js"></script>
+    <script src="./burger.js"></script>
+    <script src="./script.js"></script>
+</body>     
+
+</html>

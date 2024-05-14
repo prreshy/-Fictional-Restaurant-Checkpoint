@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Au trois-quart</title>
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+
+</head>
+
+<body>
+
+    <header>
+         <!-- marie -->
+        <nav class="navbar is-fixed-top is-black
+        ourNav" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item hover" href="index.html">
+                    <img src="./assets/images/logo3.png" width="40" height="150">
+                </a>
+                <a class="navbar-item" href="index.html">
+                    AU TROIS-QUART
+                </a>
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="navMenu" class="navbar-menu">
+
+                                <div class="navbar-end ourNavItem">
+                    <a class="navbar-item" href="index.html#welcome">
+
+                        Home
+                    </a>
+
+                    <a class="navbar-item hover" href="menu.html">
+                        Menu
+                    </a>
+
+                    <a class="navbar-item hover" href="index.html#about">
+                        About Us
+                    </a>
+
+                    <a class="navbar-item hover" href="index.html#hours">
+                        Opening Hours
+                    </a>
+
+
+                </div>
+
+
+               
+            </div>
+             <!-- marie -->
+        </nav>
+
+        <section class="hero heroMenu">
+            <div class="hero-body">
+
+                 <!-- marie -->
+                        <div class="cart">
+
+                            <button class="button is-dark">
+                                <span class="icon">
+                                  <i class="fa fa-shopping-basket"></i>
+                                </span>
+                            <strong>My basket</strong>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- marie -->
+
+                <div class="container">
+                    <h1 class="title has-text-centered heroTitle pt-6" id="welcome">
+                        Welcome to our restaurant. 
+                    </h1>
+                    <h2 class="happyHoliday">Find our menu choices here.</h2>
+                    
+
+                </div>
+            </div>
+        </section>
+    </header>
+<!--Wassim -->
+     <main>
+           <!--Jean -->
+      <section id="timer" class="shippingDiv">
+          <h2>Your Order is on its way ! </h2>
+         <p>You'll be able to enjoy your dinner in approximately :</p>
+         <div class="timer"></div>
+         <progress class="progress is-small is-dark progressWidth" max="1000">5%</progress>
+      <button class ="timerButton">close timer</button>
+        </section>;
+        <!--End Jean -->
+      <section id="centerResearch" class="research">
+
+            <div class="field has-addons">
+                 <div id="recherche" class="control"><!-- Option recherche pour JS -->
+                    <input class="input" type="text" placeholder="Find a repository">
+                </div>
+                <div class="control">
+                    <a class="button is-info">
+                        Search
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================= Début Card ========================= -->
+
+        <section id="centerCard" class="menu columns is-multiline"></section>
+            
+        <!-- ========================= FIn Card  ========================= -->
+
+        <section id="collection_Filtrer" class="columns is-multiline"></section> 
+     
+    </main>
+<!--Wassim fin -->
+    <footer class="footer">
+        <div class="container">
+            <div class="content has-text-centered">
+                <p class="p-footer">
+                    <a class="footer-link">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <a class="footer-link">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                </p>
+                <p class="p-footer">
+                    <strong>© 2020 Trois-quart</strong>
+                </p>
+                <p class="p-footer">
+
+                    The "Trois-quart" team members are <a class="footer-link" href="https://github.com/JeanFabry">Jean F.</a>, <a class="footer-link" href="https://github.com/mariefourriere">Marie F.</a> , <a  class="footer-link"href="https://github.com/GAudrey">Audrey G.</a> and <a class="footer-link" href="https://github.com/Jniouen-Wassim">Wassim J.</a>
+
+                </p>
+                <p class="p-footer">
+                    <a class="footer-link" href="https://github.com/JeanFabry/Restaurant"><i class="fa fa-github"></i> Github project</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="./burger.js"></script>
+    <script src="./menu.js"></script>
+</body>
+</html>

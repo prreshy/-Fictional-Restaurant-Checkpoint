@@ -1,0 +1,438 @@
+body {
+    height: 100vh;
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    /*Ne touchez pas sans prévenir*/
+}
+
+section {
+    /*Ne touchez pas sans prévenir*/
+}
+
+footer {
+    /*Ne touchez pas sans prévenir*/
+}
+
+.margin {
+    margin: 14px;
+    /* padding: 0px; */
+}
+
+/* header */
+
+.ourNav {
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+a.ourNavItem:hover {
+    background-color: grey;
+    
+}
+/* Marie ---cart--------------------  */
+ 
+a.ourNavItem:hover {
+    background-color:transparent;
+    color: rgb(145, 6, 6);
+    
+}
+.mySlides{
+display: none;
+margin-bottom: 18px;
+}
+
+.cart{
+    display: flex;
+    
+    justify-content: flex-end;
+    margin-top: 10px;
+    
+}
+.button.is-dark{
+    position: fixed;
+    z-index: 10;
+}
+.slideshow-container {
+    position: relative;
+    width: 100vw;
+    background-size: cover;
+}
+.welcomeText{
+    position: absolute;
+    width: 100vw;
+    margin-top: 180px;
+}
+.fade {
+    transition: ease-in-out 2s;
+    /* -webkit-animation-name: fade;
+    -webkit-animation-duration: 4s;
+    animation-name: fade;
+    animation-duration: 4s; */
+  }
+.is-active{
+    background-color: transparent;
+    text-align: right;
+    color: rgb(145, 6, 6);
+    
+   
+}
+a.navbar-item{
+    color:white;
+}
+
+.navbar-brand{
+    margin-left:80px;
+}
+a.navbar-item:hover{
+    color: rgb(145, 6, 6);
+    background-color: transparent;    
+}
+
+.navbar-menu{
+    margin-right:40px;
+
+}
+  /* ------------------- Marie  */
+.heroIndex{
+    background-image: url(./assets/images/slide2.JPG);
+    background-size: cover;
+    
+    margin-bottom: 20px;
+    
+}
+
+.heroMenu{
+    background-image: url(./assets/images/slide1.JPG);
+    background-size: cover;
+    height:  500px;
+    margin-bottom: 20px;
+}
+.heroTitle{
+    color: white;
+}
+.happyHoliday{
+    color: rgb(145, 6, 6);
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    
+}
+.about{
+    background-color: lightgrey;
+
+}
+
+.opening{
+    background-image: url("./assets/images/morning.JPG");
+    position: relative;
+    background-size: cover;
+    height: 700px;
+}
+
+.titleSection{
+    color:  rgb(145, 6, 6);
+    background-color: rgba(255, 255, 255, 0.356);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+
+}
+
+
+.tablebg{
+    background-color: rgba(255, 255, 255, 0.356);
+    color: black;
+    font-weight: 700;
+    width:100%;
+
+}
+
+
+/* -------------------Recap Div Jean ------------ */
+.recapDiv {
+    height: 90vh;
+    width: 30%;
+    position: fixed;
+    top: 0;
+    right: -30%; 
+    margin: 98px 0;
+    border: 3px solid black;
+    background-color:white;
+    text-align: center;
+    font-size:20px;
+    transition: ease-in-out 1.5s;
+    padding: 30px 15px;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+
+.recapDivOrders{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.innerRecapDiv{
+display: flex;
+padding: 10px 10px;
+border-bottom: 0.1px solid black;
+}
+
+.innerRecapDivRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+padding-left: 10px;
+ }
+
+ .innerRecapDivRightTitle{
+     text-align: left;
+ }
+ 
+ .innerRecapImgLeft{
+ height: 100px;
+ width: 100px;
+ border-radius: 5px;
+
+}
+
+.shippingDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 0;
+    background-color: #D3D3D3;
+    overflow:hidden;
+    transition: ease-in-out 1.5s;
+}
+
+.shippingDiv h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.timerButton, .buttonCartTotal, .seeTimerShippingDiv, .makeANewOrder{
+    border-radius: 20px;
+    border: 0.1px solid black;
+    background-color: transparent;
+    height:35px;
+    vertical-align: center;
+    margin-bottom: 10px;
+    transition: ease-in-out 1s;
+}
+
+.timerButton:hover, .buttonCartTotal:hover, .seeTimerShippingDiv:hover, .makeANewOrder:hover{
+    border-radius: 5px;
+    background-color: rgb(240, 240, 240);
+
+}
+
+.orderDone{
+background-color: rgba(4, 167, 4, 0.431);
+border:1px solid green;
+}
+
+.orderDone:hover{
+background-color: rgba(4, 167, 4, 0.431);
+border:1px solid green;
+border-radius: 20px;
+}
+
+.orderWrong{
+background-color: rgba(167, 18, 4, 0.431);
+border:1px solid red;
+}
+
+.timer{
+    margin-bottom: 15px;
+}
+
+.progressWidth{
+    width:50%;
+}
+
+.progress:indeterminate {
+    -webkit-animation-duration: 5s;}
+
+.recapDivCartButtons {
+    display: flex;
+    flex-direction: column;
+}
+
+/* -------------------END Jean ------------ */
+
+/* modif css audrey */
+.p-footer {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer > div > div > p:first-child{
+    display: block;
+    padding: 0px;
+}
+
+footer > div > div > p:first-child > a{ /*delete background color icon and radius*/
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+footer > div > div > p:nth-child(2) {
+    border-right: 1px solid black;
+    padding-left: 0px;
+}
+
+footer > div > div > p:last-child {
+    display: block;
+    margin-top: 15px;
+    padding: 0px;
+    font-style: italic;
+}
+
+.footer-link{
+    color: rgb(145, 6, 6);
+}
+/*================== Début Card (Jniouen wassim) =================*/
+
+#centerResearch{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+   
+}
+
+#centerCard, #collection_Filtrer{
+    justify-content: center;
+    color: red;
+}
+.barreSelect{
+    display: flex;
+    justify-content: center;
+}
+
+.Select{
+    
+    background-color: royalblue;
+}
+
+.tag.is-danger {
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.tag:not(body).is-success{
+    background-color:transparent;
+    color:#3d8354;
+    font-weight:bold;
+    border: 0.1px solid #3d8354;
+}
+
+.tag:not(body).is-danger{
+    background-color: transparent;
+    color: #3f1f1f;
+    font-weight:bold;
+    border: 0.1px solid #3f1f1f;
+}
+.content h2 {
+    color: #0c0b0b;
+}
+
+.content p {
+    color: black;
+}
+
+.card {
+    color: black;
+    background-color: transparent;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    border: 0.2px solid #D3D3D3;
+    filter: brightness(95%);
+}
+
+.card:hover {
+    box-shadow: 0 0 0 0  #D3D3D3;
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    to {
+        box-shadow: 0 0 0 12px rgba(0, 0, 0, 0.01);
+    }
+}
+
+input.input{
+border: 0.2px solid #363636;
+
+}
+
+a.button.is-info{
+    border: 0.2px solid #363636;
+    background-color:  transparent;
+    color:black;
+    font-weight: bold;
+
+}
+a.button.is-info:hover{
+    background-color:#D3D3D3;
+    color:black
+}
+.button {
+    background-color:transparent;
+    border: 0.px solid black;
+    color: black;
+    font-weight: 550;
+    
+}
+
+.button:hover{
+    filter: invert(0.20);
+   
+}
+
+/*================= Fin Card (Jniouen wassim) =================*/
+
+/*-------------------------Audrey-------------------------*/
+/*--- opening hours panel ---*/
+#current-time{
+    /*background-color: rgba(255, 255, 255, 0.356);*/
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    color: black;
+    animation: bounce 0.75s ease infinite alternate;
+}
+@keyframes bounce{
+    from {transform: translateY(0);}
+    to   {transform: translateY(-10px);}
+}
+
+.panel-hours-opened{
+    background-color: rgba(83, 128, 81, 0.71);
+}
+
+.panel-hours-closed{
+    border: 2px solid rgb(173, 92, 44);
+    background-color: rgba(255, 255, 255, 0.356);
+}
+
+/*--- opening hours color ---*/
+.opened{
+    background-color: rgba(83, 128, 81, 0.71);
+}
+
+.closed{
+    background-color: rgba(173, 92, 44, 0.61);
+}
+/*-------------------------Audrey-------------------------*/
